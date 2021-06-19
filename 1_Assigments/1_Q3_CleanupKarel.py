@@ -4,18 +4,16 @@ from karel.stanfordkarel import *
 File: SafePickup.py
 --------------------
 When you finish writing this file, Karel should be able to
-pick up a beeper from the current position if one is present
-(but do nothing if no beepers are present).
+
 """
 
 def main():
     """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
+    Write a code to make Karel to pick up a beeper from the current position if one is present
+    It should not do anythin if no beepers are present).
     """
 
+# For this repetitive task, a while loop is required.
     while beepers_present():
         pick_beeper()
 
