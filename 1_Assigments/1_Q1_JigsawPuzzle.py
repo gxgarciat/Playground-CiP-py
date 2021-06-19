@@ -9,10 +9,8 @@ Karel should end in the same position Karel starts in -- the bottom left corner 
 
 def main():
     """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
+    Write a code to make Karel do its task in this function. 
+    Make sure to delete the 'pass' line before starting to write your own code. 
     """
 
     movetwotimes()
@@ -31,11 +29,14 @@ def main():
     turn_left()
 
 
+# This function makes Karel to rotate 270. 
+
 def rotatethreetimes():
     turn_left()
     turn_left()
     turn_left()   
 
+# This function makes Karel to rotate 180. 
 def movetwotimes():
     move()
     move()
