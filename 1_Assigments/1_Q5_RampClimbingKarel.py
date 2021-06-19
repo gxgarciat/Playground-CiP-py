@@ -1,19 +1,12 @@
 from karel.stanfordkarel import *
 
-"""
-File: RampClimbingKarel.py
---------------------
-When you finish writing this file, RampClimbingKarel should be
-able to draw a line with slope 1/2 in any odd sized world
-"""
-
 def main():
     """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
+    Write a code, RampClimbingKarel, to draw a line with slope 1/2 in 
+    any odd sized world.
     """
+
+# This while-loop will keep Karel moving until it reaches a wall
     while front_is_clear():
         put_beeper()
         move()
@@ -24,7 +17,7 @@ def main():
     if front_is_blocked():
         put_beeper()
 
-
+# This function makes Karel rotate 270 degrees.
 def rotation():
     for i in range(3):
         turn_left()
