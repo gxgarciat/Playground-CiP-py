@@ -1,16 +1,9 @@
 from karel.stanfordkarel import *
 
-"""
-File: PuzzleKarel.py
---------------------
-Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
-Karel should end in the same position Karel starts in -- the bottom left corner of the world.
-"""
-
 def main():
     """
-    Write a code to make Karel do its task in this function. 
-    Make sure to delete the 'pass' line before starting to write your own code. 
+    Write a code that makes Karel to finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+    Karel should end in the same position Karel starts in -- the bottom left corner of the world.
     """
 
     movetwotimes()
