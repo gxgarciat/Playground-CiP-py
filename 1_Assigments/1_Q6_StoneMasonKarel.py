@@ -1,20 +1,9 @@
 from karel.stanfordkarel import *
 
-"""
-File: StoneMasonKarel.py
-------------------------
-When you finish writing code in this file, StoneMasonKarel should be
-able to solve the "repair the quad" problem from Assignment 1.
-You should make sure that your program works for all of the
-sample worlds supplied in the starter code.
-"""
-
 def main():
     """
-    You should write your code to make Karel do its task in
-    this function. Make sure to delete the 'pass' line before
-    starting to write your own code. You should also delete this
-    comment and replace it with a better, more descriptive one.
+    This function shouls make Karel do its task. 
+    StoneMasonKarel should be able to solve the "repair the quad" problem from Assignment 1.
     """
     fillingcolumns()
     goingdown()
@@ -42,6 +31,7 @@ def main():
 
 #-----Helper functions--------
 
+# This function will fill columns
 def fillingcolumns():
     turn_left()
 
@@ -53,15 +43,18 @@ def fillingcolumns():
     if front_is_blocked():
         rotation()
 
+# this function will make Karel cross the street
 def crossstreet():
     if front_is_clear():
         for i in range(4):
             move()
 
+# This function will make Karel rotate 90 degrees
 def rotation():
     for i in range(2):
         turn_left()
 
+# This function will make Karel go down
 def goingdown():
     while front_is_clear():
         move()
