@@ -1,11 +1,11 @@
 from karel.stanfordkarel import *
 
-"""
-File: Midpoint.py
-------------------------
-Place a beeper on the middle of the first row.
-"""
+	
 def main():
+
+	"""
+	This program should place a beeper on the middle of the first row.
+	"""
 
     while no_beepers_present():
         build_wall()
@@ -21,6 +21,9 @@ def main():
             deconstruct_wall()
         place_last_beeper()
 
+# Helper functions
+
+# This function build a wall
 def build_wall():
     while no_beepers_present():
         if front_is_clear():
@@ -38,6 +41,7 @@ def build_wall():
         move()
         turn_right()
 
+# This function deconstruct the wall
 def deconstruct_wall():
     while beepers_present():
         if front_is_clear():
@@ -64,6 +68,7 @@ def back_to_start():
         move()
     turn_left()
 
+# This function will place beepers
 def place_last_beeper():
     if facing_north():
         turn_left()
