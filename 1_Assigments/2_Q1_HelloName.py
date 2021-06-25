@@ -1,8 +1,10 @@
-"""
-Prompts the user for their name and then says hello!
-"""
-
 def main():
+
+    """
+    Write a program that prompts the user for their name and then says hello!
+    """
+
+
     name = str(input("What is your name? "))
     print(f'Hello {name}!')
 
