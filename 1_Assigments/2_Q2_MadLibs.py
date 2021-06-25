@@ -1,24 +1,26 @@
-"""
-Uses constants to tell a mad libs story.
-"""
-
-# Fun fact: 6174 is known as Kaprekar's constant,
-# and it's a pretty mysterious number :)
-
-#WIZARD = 'Karel the Omniscient'
-#NUMBER_OF = 6174
-#FRUIT = 'mangoes'
-#PRICE = 2.99
-#YEARS = 300
-
-WIZARD = "Merlin"
-NUMBER_OF = 28
-FRUIT = "durian"
-PRICE = 1.55
-YEARS = 100
-
-
 def main():
+
+    """
+    Uses constants to tell a mad libs story.
+
+    # Fun fact: 6174 is known as Kaprekar's constant,
+    # and it's a pretty mysterious number :)
+
+    #WIZARD = 'Karel the Omniscient'
+    #NUMBER_OF = 6174
+    #FRUIT = 'mangoes'
+    #PRICE = 2.99
+    #YEARS = 300
+
+    WIZARD = "Merlin"
+    NUMBER_OF = 28
+    FRUIT = "durian"
+    PRICE = 1.55
+    YEARS = 100
+
+    """
+
+
     print("There once was a wizard by the name of " + WIZARD + " who loved to eat " + FRUIT + ".")
     print(WIZARD + " always kept a stash of " + str(NUMBER_OF) + " " + FRUIT + " in their mini fridge!")
     print(WIZARD + " realized they couldn't keep all those " + FRUIT + " to themselves,")
