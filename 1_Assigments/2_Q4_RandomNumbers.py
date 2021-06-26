@@ -1,8 +1,10 @@
-"""
-Prints out 10 random numbers between 0 and 100.
-"""
+
 
 import random
+
+"""
+This function prints out 10 random numbers between 0 and 100.
+"""
 
 NUM_RANDOM=10
 MIN_RANDOM=0
