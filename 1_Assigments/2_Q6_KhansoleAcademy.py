@@ -1,10 +1,9 @@
-"""
-Prints out a randomly generated addition problem
-and checks if the user answers correctly.
-"""
-
 import random 
 
+   """
+   Prints out a randomly generated addition problem
+   and checks if the user answers correctly.
+   """
 
 MIN_RANDOM=10
 MAX_RANDOM=99
