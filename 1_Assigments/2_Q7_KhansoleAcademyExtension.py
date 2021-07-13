@@ -1,9 +1,4 @@
-"""
-TODO: Write a description here
-"""
-
 import random 
-
 
 MIN_RANDOM=10
 MAX_RANDOM=99
