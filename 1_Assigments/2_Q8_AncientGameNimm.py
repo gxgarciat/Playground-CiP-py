@@ -1,8 +1,6 @@
-"""
-TODO: Write a description here
-"""
-
 import random
+
+# Write the game Ancient Game Nimm
 
 def main():
     stones_left=20
