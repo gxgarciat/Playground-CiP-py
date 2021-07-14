@@ -1,6 +1,6 @@
 import random
 
-# Write the game Ancient Game Nimm
+# Write the Ancient Game Nimm
 
 def main():
     stones_left=20

@@ -1,8 +1,9 @@
+from simpleimage import SimpleImage
+
 """
 This program implements a rad image filter.
 """
 
-from simpleimage import SimpleImage
 
 DEFAULT_FILE = 'images/quad.jpg'
 
