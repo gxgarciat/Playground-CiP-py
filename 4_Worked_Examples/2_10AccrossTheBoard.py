@@ -1,12 +1,12 @@
 from karel.stanfordkarel import *
 
+def main():
+
 """
 File: TensKarel.py
 -----------------------
 Place 10 beepers in all spots on the bottom row of any sized world.
 """
-
-def main():
 
     while front_is_clear(): #front_is_clear():
         tenbeepers()
