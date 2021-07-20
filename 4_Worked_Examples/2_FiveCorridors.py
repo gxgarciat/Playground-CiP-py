@@ -1,12 +1,13 @@
 from karel.stanfordkarel import *
 
+def main():
+
 """
-File: FiveCorridorsKarel.py
 -----------------------
 Karel traverse 5 variable length corridors and place beepers at the ends of them if there aren't already beepers there.
 """
 
-def main():
+
     for i in range(4):
         move_forward()
         beeperstatus()
