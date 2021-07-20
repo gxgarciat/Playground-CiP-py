@@ -1,12 +1,11 @@
 from karel.stanfordkarel import *
 
+def main():
+
 """
-File: InvertKarel.py
------------------------
 Inverts the pattern of beepers in a single row world.
 """
 
-def main():
     while front_is_clear():
         if beepers_present():
             pick_beeper()
