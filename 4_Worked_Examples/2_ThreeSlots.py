@@ -1,12 +1,11 @@
 from karel.stanfordkarel import *
 
-"""
-File: SlotsKarel.py
------------------------
-Place 10 beepers in all spots on the bottom row of any sized world.
-"""
 
 def main():
+
+"""
+Place 10 beepers in all spots on the bottom row of any sized world.
+"""
 
     for i in range(3):
         go_down()
