@@ -1,13 +1,12 @@
 from karel.stanfordkarel import *
 
+def main():
+
 """
-File: TreasureHunt1.py
-------------------------------
 Karel will move forward until a beeper.
 At every beeper, Karel will turn left and move until the next beeper, until Karel is standing on the treasure, which is a pile of 10 beepers.
 """
 
-def main():
     while front_is_clear():
         move()
         if beepers_present():
