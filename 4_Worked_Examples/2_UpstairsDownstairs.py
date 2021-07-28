@@ -1,12 +1,9 @@
 from karel.stanfordkarel import *
 
+def main():
 """
-File: UpstairsDownstairs.py
-------------------------------
 Karel will climb three stair steps up and then three stair steps down.
 """
-
-def main():
     climbing()
     descending()
         
