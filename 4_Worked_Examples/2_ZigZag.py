@@ -1,7 +1,8 @@
+def main():
+"""
 Places a zig zag pattern of beepers in the world.
 """
 
-def main():
     while front_is_clear():
         put_beeper()
         top_beepers()
