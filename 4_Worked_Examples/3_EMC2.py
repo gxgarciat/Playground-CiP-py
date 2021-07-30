@@ -1,4 +1,9 @@
 def main():
+"""
+Implement the Equation for the mass-energy equivalence
+
+"""
+
     
     C = 299792458
     m = float(input("Enter kilos of mass: "))
