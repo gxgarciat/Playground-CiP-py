@@ -1,5 +1,10 @@
 def main():
     
+"""
+Implement the Fibonacci Equation
+
+"""
+
     sum = 0
     fib0= 0
     fib1= 1
