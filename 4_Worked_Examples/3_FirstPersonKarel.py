@@ -1,5 +1,11 @@
 def main():
 
+"""
+Implement the Karel program based on the instructions
+
+"""
+
+
     N_COLS = 3 # notice these constants!
     N_ROWS = 3
 
