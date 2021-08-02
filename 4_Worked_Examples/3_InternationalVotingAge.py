@@ -1,5 +1,10 @@
 def main():
 
+"""
+Implement a program that informs the user if they are able to vote in Peturksbouipo, Stanlau, Mayengua
+
+"""
+
     age_peturksbouipo = 16
     age_stanlau=25
     age_mayengua=48
