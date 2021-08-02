@@ -1,4 +1,10 @@
 def main():
+
+"""
+Implement a program that calculates the age for Anton, Beth, Chen, Drew, Ethan
+
+"""
+
     pass
 
     anton=21
