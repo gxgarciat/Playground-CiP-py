@@ -1,4 +1,11 @@
 def main():
+
+"""
+Implement a program that informs the user if it is a leap year or not
+
+"""
+
+
     year=int(input("Type the year: "))
     if year % 4 == 0:
         if year % 400 != 0:
