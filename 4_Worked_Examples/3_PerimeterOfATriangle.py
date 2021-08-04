@@ -1,4 +1,11 @@
 def main():
+
+"""
+Implement a program that calculates the perimeter of the triangle
+
+"""
+
+
     
     perimeter=0
     i=1
