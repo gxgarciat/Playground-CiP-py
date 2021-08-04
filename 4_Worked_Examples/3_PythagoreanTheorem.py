@@ -1,5 +1,12 @@
 import math
 
+"""
+Implement a program that calculates the hypotenuse, based on the Pythaorean Theorem 
+
+"""
+
+
+
 def main():
     ab_length = float(input("Enter the length of AB: "))
     ac_length = float(input("Enter the length of AC: "))
