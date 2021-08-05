@@ -1,5 +1,9 @@
 def main():
     
+"""
+Implement a program that divides two numbers and provides the user with the remainder 
+
+"""
 
     import math
 
