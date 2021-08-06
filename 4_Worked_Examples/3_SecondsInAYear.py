@@ -1,4 +1,9 @@
 def main():
+
+"""
+Implement a program that calculates how many seconds are in a year
+
+"""
     
     year = 365 
     hours_day = 24 
