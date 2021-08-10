@@ -1,5 +1,10 @@
 import random
 
+"""
+Implement a program that tells the user the probability of getting heads when tossing a coin 
+
+"""   
+
 def main():
 
     #specific range
