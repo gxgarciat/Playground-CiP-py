@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: CollectNewspaperKarel.py
-------------------------------
 At present, the CollectNewspaperKarel file does nothing.
 Your job in the assignment is to add the necessary code to
 
