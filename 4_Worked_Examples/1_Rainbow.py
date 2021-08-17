@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: Rainbow.py
-------------------------------
 Karel makes a rainbow!
 """
 
