@@ -4,8 +4,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: ForLoopWarmup.py
-------------------------------
 Put 4 beepers down in a row, starting with Karel's current position.
 """
 
