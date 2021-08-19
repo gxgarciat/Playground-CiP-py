@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: ForLoopWarmup.py
-------------------------------
 Get Karel to do a cool backflip by turning left 4 times.
 """
 
