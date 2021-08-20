@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: WhileLoopWarmup.py
-------------------------------
 Clean a spot by picking up beepers until there aren't any left.
 """
 
