@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: IfElseWarmup.py
-------------------------------
 Turn based on whether or not a beeper is present.
 """
 
