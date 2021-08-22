@@ -3,8 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
-File: WhileLoopWarmup.py
-------------------------------
 Fill the entire bottom row of the world with beepers.
 """
 
