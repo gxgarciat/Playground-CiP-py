@@ -3,7 +3,6 @@ from karel.stanfordkarel import *
 def main():
 
 """
------------------------
 Karel traverse 5 variable length corridors and place beepers at the ends of them if there aren't already beepers there.
 """
 
